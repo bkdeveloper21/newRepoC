@@ -2,7 +2,7 @@
  
 <Header>
 
-  <Version val="14081.00"/>
+  <Version val="14100.00"/>
 
   <WithIsn val="Y"/>
 
@@ -17,7 +17,7 @@
 <DataRepositoryProperties/>
  <DataSourceRepository>
   <DataObjects>
- 
+  
  
 <DataObject PhysicalName="1" Resident="N" UniqueISNConvState="12" data_source="Test" id="1" name="1">
 
@@ -119,7 +119,7 @@
 
   <Encrypt val="N"/>
 
-  <Cache val="D"/>
+  <Cache val="N"/>
 
   <IdentifyRowModifications val="U"/>
 
@@ -215,7 +215,7 @@
 
   <Encrypt val="N"/>
 
-  <Cache val="D"/>
+  <Cache val="N"/>
 
   <IdentifyRowModifications val="U"/>
 
@@ -229,7 +229,7 @@
 
   <Position val="D"/>
 
-  <PositionIndex val="-1"/>
+  <PositionIndex val="-2"/>
 
   <MetaTreeRTIndex val="-1"/>
 
