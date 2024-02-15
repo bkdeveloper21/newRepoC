@@ -8,7 +8,7 @@
 
   <Exe comp="-1"/>
 
-  <LastIsn val="5"/>
+  <LastIsn val="9"/>
 
   <LastIsnFolder val="0"/>
 
@@ -39,7 +39,70 @@
   <WebS/>
 
 </DataObject> 
-<DataObject PhysicalName="4" Resident="N" UniqueISNConvState="12" data_source="Test" id="4" name="4">
+<DataObject PhysicalName="2" Resident="N" UniqueISNConvState="12" data_source="Test" id="1048584" name="2">
+
+  <Encrypt val="N"/>
+
+  <Cache val="N"/>
+
+  <IdentifyRowModifications val="U"/>
+
+  <HasHint val="N"/>
+
+  <ObjectType val="V"/>
+
+  <Columns/>
+
+  <Indexes/>
+
+  <ForeignKeys/>
+
+  <WebS/>
+
+</DataObject> 
+<DataObject PhysicalName="3" Resident="N" UniqueISNConvState="12" data_source="Test" id="1048585" name="3">
+
+  <Encrypt val="N"/>
+
+  <Cache val="N"/>
+
+  <IdentifyRowModifications val="U"/>
+
+  <HasHint val="N"/>
+
+  <ObjectType val="V"/>
+
+  <Columns/>
+
+  <Indexes/>
+
+  <ForeignKeys/>
+
+  <WebS/>
+
+</DataObject> 
+<DataObject PhysicalName="4" Resident="N" UniqueISNConvState="12" data_source="Test" id="1048582" name="4">
+
+  <Encrypt val="N"/>
+
+  <Cache val="N"/>
+
+  <IdentifyRowModifications val="U"/>
+
+  <HasHint val="N"/>
+
+  <ObjectType val="V"/>
+
+  <Columns/>
+
+  <Indexes/>
+
+  <ForeignKeys/>
+
+  <WebS/>
+
+</DataObject> 
+<DataObject PhysicalName="5" Resident="N" UniqueISNConvState="12" data_source="Test" id="4" name="5">
 
   <Encrypt val="N"/>
 
