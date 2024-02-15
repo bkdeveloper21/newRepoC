@@ -22,7 +22,7 @@
 
   <Encrypt val="N"/>
 
-  <Cache val="N"/>
+  <Cache val="D"/>
 
   <IdentifyRowModifications val="U"/>
 
@@ -36,7 +36,7 @@
 
   <Position val="D"/>
 
-  <PositionIndex val="-1"/>
+  <PositionIndex val="1048577"/>
 
   <IndexesLastIsn val="1"/>
 
@@ -157,7 +157,7 @@
 
   <Position val="D"/>
 
-  <PositionIndex val="-1"/>
+  <PositionIndex val="1048577"/>
 
   <IndexesLastIsn val="1"/>
 
@@ -278,7 +278,7 @@
 
   <Position val="D"/>
 
-  <PositionIndex val="-1"/>
+  <PositionIndex val="1048577"/>
 
   <IndexesLastIsn val="1"/>
 
@@ -399,7 +399,7 @@
 
   <Position val="D"/>
 
-  <PositionIndex val="-1"/>
+  <PositionIndex val="1048577"/>
 
   <IndexesLastIsn val="1"/>
 
