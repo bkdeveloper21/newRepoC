@@ -506,7 +506,7 @@
 
   <Encrypt val="N"/>
 
-  <Cache val="N"/>
+  <Cache val="D"/>
 
   <IdentifyRowModifications val="U"/>
 
