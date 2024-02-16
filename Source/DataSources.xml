@@ -8,7 +8,7 @@
 
   <Exe comp="-1"/>
 
-  <LastIsn val="13"/>
+  <LastIsn val="23"/>
 
   <LastIsnFolder val="0"/>
 
@@ -18,7 +18,7 @@
  <DataSourceRepository>
   <DataObjects>
  
-<DataObject PhysicalName="1" Resident="N" UniqueISNConvState="12" data_source="TestMSSQL" id="4" name="1">
+<DataObject PhysicalName="s1" Resident="N" UniqueISNConvState="12" data_source="mssql" id="19" name="s1">
 
   <Encrypt val="N"/>
 
@@ -36,90 +36,73 @@
 
   <Position val="D"/>
 
-  <PositionIndex val="1048577"/>
+  <PositionIndex val="1"/>
 
   <IndexesLastIsn val="1"/>
 
   <MetaTreeRTIndex val="-1"/>
 
   <Columns>
-    <Column id="1" name="1">
+    <Column id="1" name="id">
       <PropertyList model="FIELD">
         <Model attr_obj="FIELD_NUMERIC" id="1"/>
         <Picture id="157" valUnicode="5"/>
         <StoredAs id="173" val="4"/>
         <Size id="174" val="4"/>
         <Definition id="175" val="2"/>
-        <DbColumnName id="178" val="1"/>
+        <DbColumnName id="178" val="c1"/>
         <_Dec id="181"/>
         <_Whole id="182" val="5"/>
         <_Negative id="192"/>
         <_Flip id="194"/>
-        <_FieldPhysical Name="1" PIC_U="5" Size="4" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
+        <_FieldPhysical Name="c1" PIC_U="5" Size="4" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
         <_FieldStyle id="276" val="1"/>
       </PropertyList>
     </Column>
-    <Column id="2" name="2">
+    <Column id="2" name="abc">
       <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_NUMERIC" id="1"/>
-        <Picture id="157" valUnicode="1"/>
-        <StoredAs id="173" val="4"/>
-        <Size id="174" val="2"/>
+        <Model attr_obj="FIELD_ALPHA" id="1"/>
+        <Picture id="157" valUnicode="20"/>
+        <StoredAs id="173" val="3"/>
+        <Size id="174" val="20"/>
         <Definition id="175" val="2"/>
-        <DbColumnName id="178" val="2"/>
-        <_Dec id="181"/>
-        <_Whole id="182" val="1"/>
-        <_Negative id="192"/>
+        <DbColumnName id="178" val="c2"/>
         <_Flip id="194"/>
-        <_FieldPhysical Name="2" PIC_U="1" Size="2" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
-        <_FieldStyle id="276" val="1"/>
+        <_FieldPhysical Name="c2" PIC_U="20" Size="20" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
       </PropertyList>
     </Column>
-    <Column id="3" name="3">
-      <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_LOGICAL" id="1"/>
-        <StoredAs id="173" val="15"/>
-        <Size id="174" val="1"/>
-        <Definition id="175" val="2"/>
-        <DbColumnName id="178" val="3"/>
-        <_Flip id="194"/>
-        <_FieldPhysical Name="3" PIC_U="5" Size="1" allowed_null="N" attribute="B" context_cookies="Y" database_definition="2" id="231" storage="15" translate="1"/>
-        <_FieldStyle id="276" val="1"/>
-      </PropertyList>
-    </Column>
-    <Column id="4" name="4">
+    <Column id="3" name="xyz">
       <PropertyList model="FIELD">
         <Model attr_obj="FIELD_DATE" id="1"/>
         <StoredAs id="173" val="19"/>
         <Size id="174" val="8"/>
         <Definition id="175" val="2"/>
-        <DbColumnName id="178" val="4"/>
+        <DbColumnName id="178" val="c4"/>
         <_Flip id="194"/>
-        <_FieldPhysical Name="4" PIC_U="##/##/####" Size="8" allowed_null="N" attribute="D" context_cookies="Y" database_definition="2" id="231" storage="19" translate="1"/>
+        <_FieldPhysical Name="c4" PIC_U="##/##/####" Size="8" allowed_null="N" attribute="D" context_cookies="Y" database_definition="2" id="231" storage="19" translate="1"/>
         <_FieldStyle id="276" val="1"/>
       </PropertyList>
     </Column>
-    <Column id="5" name="5">
+    <Column id="4" name="abc2">
       <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_TIME" id="1"/>
-        <StoredAs id="173" val="24"/>
-        <Size id="174" val="6"/>
-        <Definition id="175" val="2"/>
-        <DbColumnName id="178" val="5"/>
+        <Model attr_obj="FIELD_BLOB" id="1"/>
+        <Size id="174" val="28"/>
+        <Definition id="175" val="1"/>
+        <DbColumnName id="178" val="abc"/>
         <_Flip id="194"/>
-        <_FieldPhysical Name="5" PIC_U="HH:MM:SS" Size="6" allowed_null="N" attribute="T" context_cookies="Y" database_definition="2" id="231" storage="24" translate="1"/>
+        <_FieldPhysical Name="abc" Size="28" allowed_null="Y" attribute="O" context_cookies="Y" database_definition="1" id="231" storage="29"/>
         <_FieldStyle id="276" val="1"/>
       </PropertyList>
     </Column>
   </Columns>
 
   <Indexes>
-    <Index id="1048577" name="idx">
+    <Index id="1" name="id">
       <Mode val="S"/>
       <Order val="T"/>
       <Range val="Q"/>
       <IndexType val="R"/>
-      <PhysicalName val="idx"/>
+      <PhysicalName val="id"/>
       <HasHint val="Y"/>
       <Clustered val="N"/>
       <DropOnReindex val="N"/>
@@ -139,370 +122,7 @@
   <WebS/>
 
 </DataObject> 
-<DataObject PhysicalName="2" Resident="N" UniqueISNConvState="12" data_source="TestMSSQL" id="1048589" name="2">
-
-  <Encrypt val="N"/>
-
-  <Cache val="N"/>
-
-  <IdentifyRowModifications val="U"/>
-
-  <HasHint val="Y"/>
-
-  <Cursor val="D"/>
-
-  <CheckExistence val="D"/>
-
-  <ObjectType val="T"/>
-
-  <Position val="D"/>
-
-  <PositionIndex val="1048577"/>
-
-  <IndexesLastIsn val="1"/>
-
-  <MetaTreeRTIndex val="-1"/>
-
-  <Columns>
-    <Column id="1" name="1">
-      <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_NUMERIC" id="1"/>
-        <Picture id="157" valUnicode="5"/>
-        <StoredAs id="173" val="4"/>
-        <Size id="174" val="4"/>
-        <Definition id="175" val="2"/>
-        <DbColumnName id="178" val="1"/>
-        <_Dec id="181"/>
-        <_Whole id="182" val="5"/>
-        <_Negative id="192"/>
-        <_Flip id="194"/>
-        <_FieldPhysical Name="1" PIC_U="5" Size="4" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
-        <_FieldStyle id="276" val="1"/>
-      </PropertyList>
-    </Column>
-    <Column id="2" name="2">
-      <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_NUMERIC" id="1"/>
-        <Picture id="157" valUnicode="1"/>
-        <StoredAs id="173" val="4"/>
-        <Size id="174" val="2"/>
-        <Definition id="175" val="2"/>
-        <DbColumnName id="178" val="2"/>
-        <_Dec id="181"/>
-        <_Whole id="182" val="1"/>
-        <_Negative id="192"/>
-        <_Flip id="194"/>
-        <_FieldPhysical Name="2" PIC_U="1" Size="2" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
-        <_FieldStyle id="276" val="1"/>
-      </PropertyList>
-    </Column>
-    <Column id="3" name="3">
-      <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_LOGICAL" id="1"/>
-        <StoredAs id="173" val="15"/>
-        <Size id="174" val="1"/>
-        <Definition id="175" val="2"/>
-        <DbColumnName id="178" val="3"/>
-        <_Flip id="194"/>
-        <_FieldPhysical Name="3" PIC_U="5" Size="1" allowed_null="N" attribute="B" context_cookies="Y" database_definition="2" id="231" storage="15" translate="1"/>
-        <_FieldStyle id="276" val="1"/>
-      </PropertyList>
-    </Column>
-    <Column id="4" name="4">
-      <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_DATE" id="1"/>
-        <StoredAs id="173" val="19"/>
-        <Size id="174" val="8"/>
-        <Definition id="175" val="2"/>
-        <DbColumnName id="178" val="4"/>
-        <_Flip id="194"/>
-        <_FieldPhysical Name="4" PIC_U="##/##/####" Size="8" allowed_null="N" attribute="D" context_cookies="Y" database_definition="2" id="231" storage="19" translate="1"/>
-        <_FieldStyle id="276" val="1"/>
-      </PropertyList>
-    </Column>
-    <Column id="5" name="5">
-      <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_TIME" id="1"/>
-        <StoredAs id="173" val="24"/>
-        <Size id="174" val="6"/>
-        <Definition id="175" val="2"/>
-        <DbColumnName id="178" val="5"/>
-        <_Flip id="194"/>
-        <_FieldPhysical Name="5" PIC_U="HH:MM:SS" Size="6" allowed_null="N" attribute="T" context_cookies="Y" database_definition="2" id="231" storage="24" translate="1"/>
-        <_FieldStyle id="276" val="1"/>
-      </PropertyList>
-    </Column>
-  </Columns>
-
-  <Indexes>
-    <Index id="1048577" name="idx">
-      <Mode val="S"/>
-      <Order val="T"/>
-      <Range val="Q"/>
-      <IndexType val="R"/>
-      <PhysicalName val="idx"/>
-      <HasHint val="Y"/>
-      <Clustered val="N"/>
-      <DropOnReindex val="N"/>
-      <Primary val="N"/>
-      <Segments>
-        <Segment>
-          <Size val="4"/>
-          <Column val="1"/>
-          <Order val="A"/>
-        </Segment>
-      </Segments>
-    </Index>
-  </Indexes>
-
-  <ForeignKeys/>
-
-  <WebS/>
-
-</DataObject> 
-<DataObject PhysicalName="3" Resident="N" UniqueISNConvState="12" data_source="TestMSSQL" id="1048587" name="3">
-
-  <Encrypt val="N"/>
-
-  <Cache val="N"/>
-
-  <IdentifyRowModifications val="U"/>
-
-  <HasHint val="Y"/>
-
-  <Cursor val="D"/>
-
-  <CheckExistence val="D"/>
-
-  <ObjectType val="T"/>
-
-  <Position val="D"/>
-
-  <PositionIndex val="1048577"/>
-
-  <IndexesLastIsn val="1"/>
-
-  <MetaTreeRTIndex val="-1"/>
-
-  <Columns>
-    <Column id="1" name="1">
-      <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_NUMERIC" id="1"/>
-        <Picture id="157" valUnicode="5"/>
-        <StoredAs id="173" val="4"/>
-        <Size id="174" val="4"/>
-        <Definition id="175" val="2"/>
-        <DbColumnName id="178" val="1"/>
-        <_Dec id="181"/>
-        <_Whole id="182" val="5"/>
-        <_Negative id="192"/>
-        <_Flip id="194"/>
-        <_FieldPhysical Name="1" PIC_U="5" Size="4" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
-        <_FieldStyle id="276" val="1"/>
-      </PropertyList>
-    </Column>
-    <Column id="2" name="2">
-      <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_NUMERIC" id="1"/>
-        <Picture id="157" valUnicode="1"/>
-        <StoredAs id="173" val="4"/>
-        <Size id="174" val="2"/>
-        <Definition id="175" val="2"/>
-        <DbColumnName id="178" val="2"/>
-        <_Dec id="181"/>
-        <_Whole id="182" val="1"/>
-        <_Negative id="192"/>
-        <_Flip id="194"/>
-        <_FieldPhysical Name="2" PIC_U="1" Size="2" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
-        <_FieldStyle id="276" val="1"/>
-      </PropertyList>
-    </Column>
-    <Column id="3" name="3">
-      <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_LOGICAL" id="1"/>
-        <StoredAs id="173" val="15"/>
-        <Size id="174" val="1"/>
-        <Definition id="175" val="2"/>
-        <DbColumnName id="178" val="3"/>
-        <_Flip id="194"/>
-        <_FieldPhysical Name="3" PIC_U="5" Size="1" allowed_null="N" attribute="B" context_cookies="Y" database_definition="2" id="231" storage="15" translate="1"/>
-        <_FieldStyle id="276" val="1"/>
-      </PropertyList>
-    </Column>
-    <Column id="4" name="4">
-      <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_DATE" id="1"/>
-        <StoredAs id="173" val="19"/>
-        <Size id="174" val="8"/>
-        <Definition id="175" val="2"/>
-        <DbColumnName id="178" val="4"/>
-        <_Flip id="194"/>
-        <_FieldPhysical Name="4" PIC_U="##/##/####" Size="8" allowed_null="N" attribute="D" context_cookies="Y" database_definition="2" id="231" storage="19" translate="1"/>
-        <_FieldStyle id="276" val="1"/>
-      </PropertyList>
-    </Column>
-    <Column id="5" name="5">
-      <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_TIME" id="1"/>
-        <StoredAs id="173" val="24"/>
-        <Size id="174" val="6"/>
-        <Definition id="175" val="2"/>
-        <DbColumnName id="178" val="5"/>
-        <_Flip id="194"/>
-        <_FieldPhysical Name="5" PIC_U="HH:MM:SS" Size="6" allowed_null="N" attribute="T" context_cookies="Y" database_definition="2" id="231" storage="24" translate="1"/>
-        <_FieldStyle id="276" val="1"/>
-      </PropertyList>
-    </Column>
-  </Columns>
-
-  <Indexes>
-    <Index id="1048577" name="idx">
-      <Mode val="S"/>
-      <Order val="T"/>
-      <Range val="Q"/>
-      <IndexType val="R"/>
-      <PhysicalName val="idx"/>
-      <HasHint val="Y"/>
-      <Clustered val="N"/>
-      <DropOnReindex val="N"/>
-      <Primary val="N"/>
-      <Segments>
-        <Segment>
-          <Size val="4"/>
-          <Column val="1"/>
-          <Order val="A"/>
-        </Segment>
-      </Segments>
-    </Index>
-  </Indexes>
-
-  <ForeignKeys/>
-
-  <WebS/>
-
-</DataObject> 
-<DataObject PhysicalName="4" Resident="N" UniqueISNConvState="12" data_source="TestMSSQL" id="1048588" name="4">
-
-  <Encrypt val="N"/>
-
-  <Cache val="N"/>
-
-  <IdentifyRowModifications val="U"/>
-
-  <HasHint val="Y"/>
-
-  <Cursor val="D"/>
-
-  <CheckExistence val="D"/>
-
-  <ObjectType val="T"/>
-
-  <Position val="D"/>
-
-  <PositionIndex val="1048577"/>
-
-  <IndexesLastIsn val="1"/>
-
-  <MetaTreeRTIndex val="-1"/>
-
-  <Columns>
-    <Column id="1" name="1">
-      <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_NUMERIC" id="1"/>
-        <Picture id="157" valUnicode="5"/>
-        <StoredAs id="173" val="4"/>
-        <Size id="174" val="4"/>
-        <Definition id="175" val="2"/>
-        <DbColumnName id="178" val="1"/>
-        <_Dec id="181"/>
-        <_Whole id="182" val="5"/>
-        <_Negative id="192"/>
-        <_Flip id="194"/>
-        <_FieldPhysical Name="1" PIC_U="5" Size="4" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
-        <_FieldStyle id="276" val="1"/>
-      </PropertyList>
-    </Column>
-    <Column id="2" name="2">
-      <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_NUMERIC" id="1"/>
-        <Picture id="157" valUnicode="1"/>
-        <StoredAs id="173" val="4"/>
-        <Size id="174" val="2"/>
-        <Definition id="175" val="2"/>
-        <DbColumnName id="178" val="2"/>
-        <_Dec id="181"/>
-        <_Whole id="182" val="1"/>
-        <_Negative id="192"/>
-        <_Flip id="194"/>
-        <_FieldPhysical Name="2" PIC_U="1" Size="2" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
-        <_FieldStyle id="276" val="1"/>
-      </PropertyList>
-    </Column>
-    <Column id="3" name="3">
-      <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_LOGICAL" id="1"/>
-        <StoredAs id="173" val="15"/>
-        <Size id="174" val="1"/>
-        <Definition id="175" val="2"/>
-        <DbColumnName id="178" val="3"/>
-        <_Flip id="194"/>
-        <_FieldPhysical Name="3" PIC_U="5" Size="1" allowed_null="N" attribute="B" context_cookies="Y" database_definition="2" id="231" storage="15" translate="1"/>
-        <_FieldStyle id="276" val="1"/>
-      </PropertyList>
-    </Column>
-    <Column id="4" name="4">
-      <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_DATE" id="1"/>
-        <StoredAs id="173" val="19"/>
-        <Size id="174" val="8"/>
-        <Definition id="175" val="2"/>
-        <DbColumnName id="178" val="4"/>
-        <_Flip id="194"/>
-        <_FieldPhysical Name="4" PIC_U="##/##/####" Size="8" allowed_null="N" attribute="D" context_cookies="Y" database_definition="2" id="231" storage="19" translate="1"/>
-        <_FieldStyle id="276" val="1"/>
-      </PropertyList>
-    </Column>
-    <Column id="5" name="5">
-      <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_TIME" id="1"/>
-        <StoredAs id="173" val="24"/>
-        <Size id="174" val="6"/>
-        <Definition id="175" val="2"/>
-        <DbColumnName id="178" val="5"/>
-        <_Flip id="194"/>
-        <_FieldPhysical Name="5" PIC_U="HH:MM:SS" Size="6" allowed_null="N" attribute="T" context_cookies="Y" database_definition="2" id="231" storage="24" translate="1"/>
-        <_FieldStyle id="276" val="1"/>
-      </PropertyList>
-    </Column>
-  </Columns>
-
-  <Indexes>
-    <Index id="1048577" name="idx">
-      <Mode val="S"/>
-      <Order val="T"/>
-      <Range val="Q"/>
-      <IndexType val="R"/>
-      <PhysicalName val="idx"/>
-      <HasHint val="Y"/>
-      <Clustered val="N"/>
-      <DropOnReindex val="N"/>
-      <Primary val="N"/>
-      <Segments>
-        <Segment>
-          <Size val="4"/>
-          <Column val="1"/>
-          <Order val="A"/>
-        </Segment>
-      </Segments>
-    </Index>
-  </Indexes>
-
-  <ForeignKeys/>
-
-  <WebS/>
-
-</DataObject> 
-<DataObject PhysicalName="5" Resident="N" UniqueISNConvState="12" data_source="TestMSSQL" id="1048586" name="5">
+<DataObject PhysicalName="s2" Resident="N" UniqueISNConvState="12" data_source="mssql" id="23" name="s2">
 
   <Encrypt val="N"/>
 
@@ -520,90 +140,385 @@
 
   <Position val="D"/>
 
-  <PositionIndex val="1048577"/>
+  <PositionIndex val="1"/>
 
   <IndexesLastIsn val="1"/>
 
   <MetaTreeRTIndex val="-1"/>
 
   <Columns>
-    <Column id="1" name="1">
+    <Column id="1" name="id">
       <PropertyList model="FIELD">
         <Model attr_obj="FIELD_NUMERIC" id="1"/>
         <Picture id="157" valUnicode="5"/>
         <StoredAs id="173" val="4"/>
         <Size id="174" val="4"/>
         <Definition id="175" val="2"/>
-        <DbColumnName id="178" val="1"/>
+        <DbColumnName id="178" val="c1"/>
         <_Dec id="181"/>
         <_Whole id="182" val="5"/>
         <_Negative id="192"/>
         <_Flip id="194"/>
-        <_FieldPhysical Name="1" PIC_U="5" Size="4" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
+        <_FieldPhysical Name="c1" PIC_U="5" Size="4" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
         <_FieldStyle id="276" val="1"/>
       </PropertyList>
     </Column>
-    <Column id="2" name="2">
+    <Column id="2" name="abc">
       <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_NUMERIC" id="1"/>
-        <Picture id="157" valUnicode="1"/>
-        <StoredAs id="173" val="4"/>
-        <Size id="174" val="2"/>
+        <Model attr_obj="FIELD_ALPHA" id="1"/>
+        <Picture id="157" valUnicode="20"/>
+        <StoredAs id="173" val="3"/>
+        <Size id="174" val="20"/>
         <Definition id="175" val="2"/>
-        <DbColumnName id="178" val="2"/>
-        <_Dec id="181"/>
-        <_Whole id="182" val="1"/>
-        <_Negative id="192"/>
+        <DbColumnName id="178" val="c2"/>
         <_Flip id="194"/>
-        <_FieldPhysical Name="2" PIC_U="1" Size="2" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
-        <_FieldStyle id="276" val="1"/>
+        <_FieldPhysical Name="c2" PIC_U="20" Size="20" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
       </PropertyList>
     </Column>
-    <Column id="3" name="3">
-      <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_LOGICAL" id="1"/>
-        <StoredAs id="173" val="15"/>
-        <Size id="174" val="1"/>
-        <Definition id="175" val="2"/>
-        <DbColumnName id="178" val="3"/>
-        <_Flip id="194"/>
-        <_FieldPhysical Name="3" PIC_U="5" Size="1" allowed_null="N" attribute="B" context_cookies="Y" database_definition="2" id="231" storage="15" translate="1"/>
-        <_FieldStyle id="276" val="1"/>
-      </PropertyList>
-    </Column>
-    <Column id="4" name="4">
+    <Column id="3" name="xyz">
       <PropertyList model="FIELD">
         <Model attr_obj="FIELD_DATE" id="1"/>
         <StoredAs id="173" val="19"/>
         <Size id="174" val="8"/>
         <Definition id="175" val="2"/>
-        <DbColumnName id="178" val="4"/>
+        <DbColumnName id="178" val="c4"/>
         <_Flip id="194"/>
-        <_FieldPhysical Name="4" PIC_U="##/##/####" Size="8" allowed_null="N" attribute="D" context_cookies="Y" database_definition="2" id="231" storage="19" translate="1"/>
+        <_FieldPhysical Name="c4" PIC_U="##/##/####" Size="8" allowed_null="N" attribute="D" context_cookies="Y" database_definition="2" id="231" storage="19" translate="1"/>
         <_FieldStyle id="276" val="1"/>
       </PropertyList>
     </Column>
-    <Column id="5" name="5">
+    <Column id="4" name="abc2">
       <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_TIME" id="1"/>
-        <StoredAs id="173" val="24"/>
-        <Size id="174" val="6"/>
-        <Definition id="175" val="2"/>
-        <DbColumnName id="178" val="5"/>
+        <Model attr_obj="FIELD_BLOB" id="1"/>
+        <Size id="174" val="28"/>
+        <Definition id="175" val="1"/>
+        <DbColumnName id="178" val="abc"/>
         <_Flip id="194"/>
-        <_FieldPhysical Name="5" PIC_U="HH:MM:SS" Size="6" allowed_null="N" attribute="T" context_cookies="Y" database_definition="2" id="231" storage="24" translate="1"/>
+        <_FieldPhysical Name="abc" Size="28" allowed_null="Y" attribute="O" context_cookies="Y" database_definition="1" id="231" storage="29"/>
         <_FieldStyle id="276" val="1"/>
       </PropertyList>
     </Column>
   </Columns>
 
   <Indexes>
-    <Index id="1048577" name="idx">
+    <Index id="1" name="id">
       <Mode val="S"/>
       <Order val="T"/>
       <Range val="Q"/>
       <IndexType val="R"/>
-      <PhysicalName val="idx"/>
+      <PhysicalName val="id"/>
+      <HasHint val="Y"/>
+      <Clustered val="N"/>
+      <DropOnReindex val="N"/>
+      <Primary val="N"/>
+      <Segments>
+        <Segment>
+          <Size val="4"/>
+          <Column val="1"/>
+          <Order val="A"/>
+        </Segment>
+      </Segments>
+    </Index>
+  </Indexes>
+
+  <ForeignKeys/>
+
+  <WebS/>
+
+</DataObject> 
+<DataObject PhysicalName="s3" Resident="N" UniqueISNConvState="12" data_source="mssql" id="21" name="s3">
+
+  <Encrypt val="N"/>
+
+  <Cache val="D"/>
+
+  <IdentifyRowModifications val="U"/>
+
+  <HasHint val="Y"/>
+
+  <Cursor val="D"/>
+
+  <CheckExistence val="D"/>
+
+  <ObjectType val="T"/>
+
+  <Position val="D"/>
+
+  <PositionIndex val="1"/>
+
+  <IndexesLastIsn val="1"/>
+
+  <MetaTreeRTIndex val="-1"/>
+
+  <Columns>
+    <Column id="1" name="id">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_NUMERIC" id="1"/>
+        <Picture id="157" valUnicode="5"/>
+        <StoredAs id="173" val="4"/>
+        <Size id="174" val="4"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="c1"/>
+        <_Dec id="181"/>
+        <_Whole id="182" val="5"/>
+        <_Negative id="192"/>
+        <_Flip id="194"/>
+        <_FieldPhysical Name="c1" PIC_U="5" Size="4" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
+        <_FieldStyle id="276" val="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="2" name="abc">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_ALPHA" id="1"/>
+        <Picture id="157" valUnicode="20"/>
+        <StoredAs id="173" val="3"/>
+        <Size id="174" val="20"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="c2"/>
+        <_Flip id="194"/>
+        <_FieldPhysical Name="c2" PIC_U="20" Size="20" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="3" name="xyz">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_DATE" id="1"/>
+        <StoredAs id="173" val="19"/>
+        <Size id="174" val="8"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="c4"/>
+        <_Flip id="194"/>
+        <_FieldPhysical Name="c4" PIC_U="##/##/####" Size="8" allowed_null="N" attribute="D" context_cookies="Y" database_definition="2" id="231" storage="19" translate="1"/>
+        <_FieldStyle id="276" val="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="4" name="abc2">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_BLOB" id="1"/>
+        <Size id="174" val="28"/>
+        <Definition id="175" val="1"/>
+        <DbColumnName id="178" val="abc"/>
+        <_Flip id="194"/>
+        <_FieldPhysical Name="abc" Size="28" allowed_null="Y" attribute="O" context_cookies="Y" database_definition="1" id="231" storage="29"/>
+        <_FieldStyle id="276" val="1"/>
+      </PropertyList>
+    </Column>
+  </Columns>
+
+  <Indexes>
+    <Index id="1" name="id">
+      <Mode val="S"/>
+      <Order val="T"/>
+      <Range val="Q"/>
+      <IndexType val="R"/>
+      <PhysicalName val="id"/>
+      <HasHint val="Y"/>
+      <Clustered val="N"/>
+      <DropOnReindex val="N"/>
+      <Primary val="N"/>
+      <Segments>
+        <Segment>
+          <Size val="4"/>
+          <Column val="1"/>
+          <Order val="A"/>
+        </Segment>
+      </Segments>
+    </Index>
+  </Indexes>
+
+  <ForeignKeys/>
+
+  <WebS/>
+
+</DataObject> 
+<DataObject PhysicalName="s4" Resident="N" UniqueISNConvState="12" data_source="mssql" id="22" name="s4">
+
+  <Encrypt val="N"/>
+
+  <Cache val="D"/>
+
+  <IdentifyRowModifications val="U"/>
+
+  <HasHint val="Y"/>
+
+  <Cursor val="D"/>
+
+  <CheckExistence val="D"/>
+
+  <ObjectType val="T"/>
+
+  <Position val="D"/>
+
+  <PositionIndex val="1"/>
+
+  <IndexesLastIsn val="1"/>
+
+  <MetaTreeRTIndex val="-1"/>
+
+  <Columns>
+    <Column id="1" name="id">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_NUMERIC" id="1"/>
+        <Picture id="157" valUnicode="5"/>
+        <StoredAs id="173" val="4"/>
+        <Size id="174" val="4"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="c1"/>
+        <_Dec id="181"/>
+        <_Whole id="182" val="5"/>
+        <_Negative id="192"/>
+        <_Flip id="194"/>
+        <_FieldPhysical Name="c1" PIC_U="5" Size="4" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
+        <_FieldStyle id="276" val="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="2" name="abc">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_ALPHA" id="1"/>
+        <Picture id="157" valUnicode="20"/>
+        <StoredAs id="173" val="3"/>
+        <Size id="174" val="20"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="c2"/>
+        <_Flip id="194"/>
+        <_FieldPhysical Name="c2" PIC_U="20" Size="20" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="3" name="xyz">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_DATE" id="1"/>
+        <StoredAs id="173" val="19"/>
+        <Size id="174" val="8"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="c4"/>
+        <_Flip id="194"/>
+        <_FieldPhysical Name="c4" PIC_U="##/##/####" Size="8" allowed_null="N" attribute="D" context_cookies="Y" database_definition="2" id="231" storage="19" translate="1"/>
+        <_FieldStyle id="276" val="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="4" name="abc2">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_BLOB" id="1"/>
+        <Size id="174" val="28"/>
+        <Definition id="175" val="1"/>
+        <DbColumnName id="178" val="abc"/>
+        <_Flip id="194"/>
+        <_FieldPhysical Name="abc" Size="28" allowed_null="Y" attribute="O" context_cookies="Y" database_definition="1" id="231" storage="29"/>
+        <_FieldStyle id="276" val="1"/>
+      </PropertyList>
+    </Column>
+  </Columns>
+
+  <Indexes>
+    <Index id="1" name="id">
+      <Mode val="S"/>
+      <Order val="T"/>
+      <Range val="Q"/>
+      <IndexType val="R"/>
+      <PhysicalName val="id"/>
+      <HasHint val="Y"/>
+      <Clustered val="N"/>
+      <DropOnReindex val="N"/>
+      <Primary val="N"/>
+      <Segments>
+        <Segment>
+          <Size val="4"/>
+          <Column val="1"/>
+          <Order val="A"/>
+        </Segment>
+      </Segments>
+    </Index>
+  </Indexes>
+
+  <ForeignKeys/>
+
+  <WebS/>
+
+</DataObject> 
+<DataObject PhysicalName="s5" Resident="N" UniqueISNConvState="12" data_source="mssql" id="20" name="s5">
+
+  <Encrypt val="N"/>
+
+  <Cache val="D"/>
+
+  <IdentifyRowModifications val="U"/>
+
+  <HasHint val="Y"/>
+
+  <Cursor val="D"/>
+
+  <CheckExistence val="D"/>
+
+  <ObjectType val="T"/>
+
+  <Position val="D"/>
+
+  <PositionIndex val="1"/>
+
+  <IndexesLastIsn val="1"/>
+
+  <MetaTreeRTIndex val="-1"/>
+
+  <Columns>
+    <Column id="1" name="id">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_NUMERIC" id="1"/>
+        <Picture id="157" valUnicode="5"/>
+        <StoredAs id="173" val="4"/>
+        <Size id="174" val="4"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="c1"/>
+        <_Dec id="181"/>
+        <_Whole id="182" val="5"/>
+        <_Negative id="192"/>
+        <_Flip id="194"/>
+        <_FieldPhysical Name="c1" PIC_U="5" Size="4" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
+        <_FieldStyle id="276" val="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="2" name="abc">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_ALPHA" id="1"/>
+        <Picture id="157" valUnicode="20"/>
+        <StoredAs id="173" val="3"/>
+        <Size id="174" val="20"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="c2"/>
+        <_Flip id="194"/>
+        <_FieldPhysical Name="c2" PIC_U="20" Size="20" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="3" name="xyz">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_DATE" id="1"/>
+        <StoredAs id="173" val="19"/>
+        <Size id="174" val="8"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="c4"/>
+        <_Flip id="194"/>
+        <_FieldPhysical Name="c4" PIC_U="##/##/####" Size="8" allowed_null="N" attribute="D" context_cookies="Y" database_definition="2" id="231" storage="19" translate="1"/>
+        <_FieldStyle id="276" val="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="4" name="abc2">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_BLOB" id="1"/>
+        <Size id="174" val="28"/>
+        <Definition id="175" val="1"/>
+        <DbColumnName id="178" val="abc"/>
+        <_Flip id="194"/>
+        <_FieldPhysical Name="abc" Size="28" allowed_null="Y" attribute="O" context_cookies="Y" database_definition="1" id="231" storage="29"/>
+        <_FieldStyle id="276" val="1"/>
+      </PropertyList>
+    </Column>
+  </Columns>
+
+  <Indexes>
+    <Index id="1" name="id">
+      <Mode val="S"/>
+      <Order val="T"/>
+      <Range val="Q"/>
+      <IndexType val="R"/>
+      <PhysicalName val="id"/>
       <HasHint val="Y"/>
       <Clustered val="N"/>
       <DropOnReindex val="N"/>
