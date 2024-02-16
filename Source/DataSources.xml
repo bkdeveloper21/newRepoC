@@ -8,7 +8,7 @@
 
   <Exe comp="-1"/>
 
-  <LastIsn val="23"/>
+  <LastIsn val="24"/>
 
   <LastIsnFolder val="0"/>
 
@@ -17,7 +17,6 @@
 <DataRepositoryProperties/>
  <DataSourceRepository>
   <DataObjects>
- 
  
 <DataObject PhysicalName="s1" Resident="N" UniqueISNConvState="12" data_source="mssql" id="19" name="s1">
 
@@ -37,7 +36,7 @@
 
   <Position val="D"/>
 
-  <PositionIndex val="-2"/>
+  <PositionIndex val="1"/>
 
   <IndexesLastIsn val="1"/>
 
@@ -533,6 +532,37 @@
       </Segments>
     </Index>
   </Indexes>
+
+  <ForeignKeys/>
+
+  <WebS/>
+
+</DataObject> 
+<DataObject PhysicalName="s6" Resident="N" UniqueISNConvState="12" data_source="mssql" id="24" name="s6">
+
+  <Encrypt val="N"/>
+
+  <Cache val="D"/>
+
+  <IdentifyRowModifications val="U"/>
+
+  <HasHint val="Y"/>
+
+  <Cursor val="D"/>
+
+  <CheckExistence val="D"/>
+
+  <ObjectType val="T"/>
+
+  <Position val="D"/>
+
+  <PositionIndex val="-1"/>
+
+  <MetaTreeRTIndex val="-1"/>
+
+  <Columns/>
+
+  <Indexes/>
 
   <ForeignKeys/>
 
