@@ -539,11 +539,11 @@
   <WebS/>
 
 </DataObject> 
-<DataObject PhysicalName="s6" Resident="N" UniqueISNConvState="12" data_source="mssql" id="24" name="x">
+<DataObject PhysicalName="s6" Resident="N" UniqueISNConvState="12" data_source="mssql" id="24" name="s6">
 
   <Encrypt val="N"/>
 
-  <Cache val="D"/>
+  <Cache val="N"/>
 
   <IdentifyRowModifications val="U"/>
 
