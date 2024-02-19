@@ -18,12 +18,11 @@
  <DataSourceRepository>
   <DataObjects>
  
- 
 <DataObject PhysicalName="s1" Resident="N" UniqueISNConvState="12" data_source="mssql" id="19" name="s1">
 
   <Encrypt val="N"/>
 
-  <Cache val="N"/>
+  <Cache val="D"/>
 
   <IdentifyRowModifications val="U"/>
 
@@ -127,7 +126,7 @@
 
   <Encrypt val="N"/>
 
-  <Cache val="N"/>
+  <Cache val="D"/>
 
   <IdentifyRowModifications val="U"/>
 
